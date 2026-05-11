@@ -1,0 +1,15 @@
+import capos.*
+
+describe "Rolando"{
+
+    test "encontrado con limite 2"{
+        rolando.encontrar(espada)
+        rolando.encontrar(collar)
+        rolando.encontrar(libro)
+
+        assert.equals(rolando.mochila(), #{espada, collar})
+
+    }
+
+
+}
